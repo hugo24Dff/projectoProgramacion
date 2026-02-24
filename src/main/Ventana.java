@@ -1,7 +1,7 @@
 package main;
 
 import javax.swing.JFrame;
-import views.Panel;
+import views.Login;
 public class Ventana extends JFrame{
 	
 	public Ventana() {
@@ -18,7 +18,7 @@ public class Ventana extends JFrame{
 		setTitle("Mi Aplicación");
 		//Coloca la ventana al centro de la pantalla
 		setLocationRelativeTo(null);
-		Panel panel = new Panel();
+		Login panel = new Login();
 		add(panel);
 		setVisible(true); //Establece visibilidad
 	}
